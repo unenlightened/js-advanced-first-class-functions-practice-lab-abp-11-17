@@ -39,6 +39,7 @@ const driversByName = function(array){
   return newArray;
 };
 
-const totalRevenue = function(){
-
+const totalRevenue = function(array){
+  
+  return totalRev;
 };
