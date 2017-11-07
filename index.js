@@ -29,7 +29,7 @@ const driversByRevenue = function(array){
 
 };
 
-const driversByName = function(array){
+/*const driversByName = function(array){
   const newArray = array;
 
   newArray.sort(function (a, b) {
@@ -38,3 +38,5 @@ const driversByName = function(array){
 
   return newArray;
 };
+
+*/
