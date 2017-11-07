@@ -46,3 +46,7 @@ const totalRevenue = function(array){
 
   return array.reduce(getRev, 0);
 };
+
+const averageRevenue = function(){
+  
+};
