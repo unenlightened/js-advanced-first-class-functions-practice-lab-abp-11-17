@@ -44,7 +44,5 @@ const totalRevenue = function(array){
     return agg + el.revenue;
   };
 
-  array.reduce(getRev, 0);
-
-  return totalRev;
+  return array.reduce(getRev, 0);
 };
