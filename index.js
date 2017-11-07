@@ -15,4 +15,5 @@ const logDriversByHometown = function(array, location){
     }
   });
 
+  return array;
 }
