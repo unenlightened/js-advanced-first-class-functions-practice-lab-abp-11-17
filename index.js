@@ -35,4 +35,6 @@ const driversByName = function(array){
   newArray.sort(function (a, b) {
     
   });
+
+  return newArray;
 };
