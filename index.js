@@ -16,4 +16,8 @@ const logDriversByHometown = function(array, location){
   });
 
   return array;
-}
+};
+
+const driversByRevenue = function(){
+  
+};
