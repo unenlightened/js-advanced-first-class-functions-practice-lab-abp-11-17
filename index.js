@@ -8,6 +8,11 @@ const logDriverNames = function(array) {
   return array;
 };
 
-const logDriversByHometown = function(){
+const logDriversByHometown = function(array, location){
+  array.forEach(function (array){
+    if (array.hometown === location){
+      console.log(array.name);
+    }
+  });
 
 }
