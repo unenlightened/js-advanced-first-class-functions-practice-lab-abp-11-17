@@ -20,10 +20,10 @@ const logDriversByHometown = function(array, location){
 
 const driversByRevenue = function(array){
   const newArray = array;
-  
+
   newArray.sort(function (a, b) {
     return a.revenue - b.revenue;
   });
 
-  return newArray;
+  return array;
 };
