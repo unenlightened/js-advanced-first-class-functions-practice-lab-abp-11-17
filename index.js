@@ -25,5 +25,5 @@ const driversByRevenue = function(array){
     return a.revenue - b.revenue;
   });
 
-  return array;
+  return newArray;
 };
