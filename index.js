@@ -41,8 +41,7 @@ const driversByName = function(array){
 
 const totalRevenue = function(array){
   const getRev = function (agg, el, i, arr){
-    
-    
+    return agg + el.revenue;
   };
 
   array.reduce(getRev, 0);
