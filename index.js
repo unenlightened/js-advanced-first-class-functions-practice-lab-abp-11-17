@@ -29,7 +29,10 @@ const logDriversByHometown = function(array, location){
 
 }; */
 
-const driversByName = function(){
-  
-};
+const driversByName = function(array){
+  const newArray = array;
 
+  newArray.sort(function (a, b) {
+    
+  });
+};
