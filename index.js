@@ -8,6 +8,6 @@ const logDriverNames = function(array) {
   return array;
 };
 
-function logDriversByHometown(){
+const logDriversByHometown = function(){
 
 }
