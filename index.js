@@ -29,8 +29,8 @@ const driversByRevenue = function(array){
 
 };
 
-/*const driversByName = function(array){
-  const newArray = array;
+const driversByName = function(array){
+  const newArray = [...array];
 
   newArray.sort(function (a, b) {
     return a.name.localeCompare(b.name);
@@ -39,4 +39,4 @@ const driversByRevenue = function(array){
   return newArray;
 };
 
-*/
+
