@@ -33,7 +33,7 @@ const driversByName = function(array){
   const newArray = array;
 
   newArray.sort(function (a, b) {
-    
+    return a.name - b.name;
   });
 
   return newArray;
