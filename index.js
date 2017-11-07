@@ -40,6 +40,6 @@ const driversByName = function(array){
 };
 
 const totalRevenue = function(array){
-  
+  array.reduce(getRev, 0);
   return totalRev;
 };
