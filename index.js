@@ -48,5 +48,5 @@ const totalRevenue = function(array){
 };
 
 const averageRevenue = function(array){
-  return totalRevenue(array); 
+  return totalRevenue(array) / array.length;
 };
